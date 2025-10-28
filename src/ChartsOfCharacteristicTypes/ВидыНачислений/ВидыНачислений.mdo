@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2afa40a1-63ea-4a9e-b213-b6a9ecec0245">
+  <producedTypes>
+    <objectType typeId="e3dc8977-b9b8-4579-ab7e-55111eead32c" valueTypeId="a9ae776e-1530-4129-8785-81a03dc8c6cd"/>
+    <refType typeId="1696db7a-1723-4664-bb24-5fcf8c64df40" valueTypeId="e6b1c6ab-e3c6-4476-bc6c-ba40a6b60be3"/>
+    <selectionType typeId="a8d96d7f-d19c-432b-9c2c-c1204d542f17" valueTypeId="13ce7243-4dd1-4df0-b897-16479c3007e6"/>
+    <listType typeId="ccff654a-879d-4026-8ba8-ccf10f701ca3" valueTypeId="b8bb9a6a-cb4b-4b7f-9eb6-b809c7e9dd48"/>
+    <managerType typeId="4c59d22f-9ec3-462e-aac9-cece96f7ba5a" valueTypeId="a62ff67b-896b-4cb4-91b7-ad728992e14a"/>
+    <containerType typeId="7030913f-972c-4f83-9cb0-ab60e9ad6631" valueTypeId="15d87579-070a-4f9e-8167-7c58e39b3047"/>
+  </producedTypes>
+  <name>ВидыНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды начислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыНачислений.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыНачислений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c675c289-bbb4-4cb9-a720-d4ab6053787b">
+    <name>Оклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d027209a-38b3-49a5-a0a6-c41e10204637">
+    <name>Премия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d96cbed7-926c-4b11-9c4a-e2d8942a54ba">
+    <name>Больничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больничные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="459e6bc3-6640-4060-8ea7-0e9a0d915740">
+    <name>Отпускные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпускные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

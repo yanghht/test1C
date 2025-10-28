@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb88d163-8c0c-482c-ae28-305291f39e2c">
+  <producedTypes>
+    <objectType typeId="7d830a57-1a90-412f-9ad4-588854319592" valueTypeId="a50bf6bf-8955-474f-8101-bafdde05d552"/>
+    <refType typeId="732545a8-3636-4aa0-b6ab-89258c396644" valueTypeId="7c26a623-f200-49fc-9cb8-c39116722ebf"/>
+    <selectionType typeId="e9c6e8d0-99ba-43ea-8ce1-681261f214ba" valueTypeId="27fb66a2-8908-4e05-ad82-c649daf15eb5"/>
+    <listType typeId="e585aa65-96f8-43a3-ae66-3bb7569a2742" valueTypeId="607029e8-9dcc-45d1-822b-013160836f8d"/>
+    <managerType typeId="1df88bd8-8cfa-4472-ba5b-d00ff0c7d2f7" valueTypeId="0cc22136-080f-4197-8996-c77279795678"/>
+  </producedTypes>
+  <name>ВидыКонтрактов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контрактов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыКонтрактов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыКонтрактов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a1c31b0f-450f-4047-a633-e0a2ced48adb">
+    <name>Срочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срочный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e19fde4d-b441-4d6b-8b05-4b632d8554b8">
+    <name>ИспытательныйСрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Испытательный срок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

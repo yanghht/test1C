@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20b0507a-95ad-4fd6-9135-80fe8b67f7a3">
+  <producedTypes>
+    <objectType typeId="2b856238-608d-420c-80d9-056c7c52af4c" valueTypeId="85dc5297-1c50-4bee-a4ee-5f6d0d3085c9"/>
+    <refType typeId="18741bbc-2532-47a7-8632-8bc6058a3eec" valueTypeId="582a3c69-6209-4074-83c2-ddbb3e98e7ac"/>
+    <selectionType typeId="0feccdde-f3fa-4c29-bda4-33b14da630ba" valueTypeId="b0850d03-1399-4d20-b76a-026b7e61cf7f"/>
+    <listType typeId="e2157fdb-e2d9-41de-8298-c0efa7844585" valueTypeId="ff9e6290-aa7b-47eb-a462-53eb03b8d056"/>
+    <managerType typeId="728d92d4-5f56-42a4-95df-b63edca52fab" valueTypeId="1840011d-601e-4664-aaa9-b0b65cdb4fab"/>
+  </producedTypes>
+  <name>БольничныйЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Больничный лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.БольничныйЛист.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2c25e275-2a97-4f85-b007-3e134d3048e9">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30f32885-82d7-49c1-bffd-e125a054fce2">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04e51285-a9c3-45e3-b07d-d89bdf7342a0">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="839f0da8-ba9c-4509-9991-172111be09fc">
+    <name>ТипБольничного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип больничного</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыБольничных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

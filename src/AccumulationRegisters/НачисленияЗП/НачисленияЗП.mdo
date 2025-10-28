@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9be5ca8-f757-497e-965a-6a8834aaa547">
+  <producedTypes>
+    <selectionType typeId="aa4a64a6-38fe-4fc8-b6cd-7257bd3a1413" valueTypeId="fb49e7a2-de5d-4dda-bff3-73ec0b886903"/>
+    <listType typeId="18e0f3b7-f50c-41f4-af6c-92dd083edec7" valueTypeId="cc1cbea2-9701-451e-b7c1-88c0fd196b03"/>
+    <managerType typeId="18e411e0-f419-4c36-bf39-108fc99f6c1c" valueTypeId="348beee4-1f1a-4392-8564-6f26e4a4086a"/>
+    <recordSetType typeId="c1840158-b963-4c89-b79a-50d74d32b27b" valueTypeId="fba54849-8425-4c2b-a81b-306459cf807a"/>
+    <recordKeyType typeId="3f5852f9-b9c2-423e-989f-870a6d457a69" valueTypeId="c5a36f28-af9c-4bc4-8f36-3a90564bc72b"/>
+    <recordType typeId="5236db55-be4d-4892-aa9d-99ae73be4d48" valueTypeId="fdadf990-ff6d-4708-ac62-e585546c4882"/>
+  </producedTypes>
+  <name>НачисленияЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления ЗП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="143b4510-3625-4082-97e2-f2e6908f9f95">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="35728b7c-607f-45b0-b8ac-83a386a457df">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="90ecc1f1-f7d9-4392-bbe1-83a901c0bd78">
+    <name>ВидНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыНачислений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0f17fa25-6b47-4234-95fc-30bdd9a2f8b7">
+    <name>МесяцНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц начисления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

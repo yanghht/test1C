@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2dc7bf3-85c0-424e-b9c9-25598cdd61a1">
+  <producedTypes>
+    <refType typeId="174dcb45-d636-4405-a07b-66fecc9a3db7" valueTypeId="a91ce1ac-500f-490b-b5cd-7230e64a3f82"/>
+    <listType typeId="7f8f3559-bd7e-4389-8d80-4f91c0b2a20e" valueTypeId="e272c1d3-b158-462f-b155-9eebfda6010b"/>
+    <managerType typeId="ca5bb5f3-bbe9-46ad-848f-9800abd4f4e8" valueTypeId="cdc5c7c5-fe9b-4f65-b12a-27a79f6106e4"/>
+  </producedTypes>
+  <name>ТипыБольничных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы больничных</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="49c5ccfa-04bf-4365-b4f2-40c9f2cff9b1">
+    <name>Болезнь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Болезнь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1beddd6-fead-4794-ad9a-fd09837e1327">
+    <name>Уход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уход</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0824a505-5125-4315-8f1a-ab790d5f7958">
+  <producedTypes>
+    <objectType typeId="d837b94c-7de0-49a6-b257-ef1220b85bfc" valueTypeId="c7781cf1-cb92-4940-9482-9933586b3fe8"/>
+    <refType typeId="5cf56ac6-c651-41ec-96ef-3f274abf9d4e" valueTypeId="8846f385-a2bb-46cc-8d67-60e313017d24"/>
+    <selectionType typeId="3ef9f365-b67e-47e6-a9cf-03d368d870a8" valueTypeId="36743c3f-93d1-481f-93e5-136c523795a6"/>
+    <listType typeId="73d542b7-4957-4048-b356-a017d2a00b91" valueTypeId="13315462-34fa-40cc-8511-241fbd4d395d"/>
+    <managerType typeId="b61ac077-7f0e-41ce-b7a7-64ae037dee84" valueTypeId="867164ca-7e0d-4744-a920-a4d02f8a6444"/>
+  </producedTypes>
+  <name>Перемещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Перемещение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f06a8733-3cc7-4023-aa66-b3cd9173143a">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a56ad95e-0941-4b0b-b692-90cfd77f837b">
+    <name>ДатаПеремещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата перемещения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be1b17b9-ccd7-4c3f-a5d8-d025c02877ac">
+    <name>НовоеПодразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новое подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a48c9cd5-e364-477b-a054-cc9e89cf1e34">
+    <name>НоваяДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d29942d3-eb41-4f5a-b374-cbacbdd40ddc">
+    <name>НовыйОклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый оклад</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

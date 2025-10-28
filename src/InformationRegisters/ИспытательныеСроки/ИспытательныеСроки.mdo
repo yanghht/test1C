@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a99ceea-73ee-48a3-87c4-c1ac7425fab9">
+  <producedTypes>
+    <selectionType typeId="bdc8dd49-273d-4dfd-a366-9bca5ecbec23" valueTypeId="841eddec-8736-4d31-a1e9-85064e2176fd"/>
+    <listType typeId="34a7ba78-fd82-4705-b526-6313b216b9ab" valueTypeId="a245f766-e183-4e1d-b85b-ceb39d72b778"/>
+    <managerType typeId="3f90b375-c598-4250-acb9-ce87630d50b6" valueTypeId="1e2127e1-8e89-4fee-ad6c-0e35e6c4fbb8"/>
+    <recordSetType typeId="a8b3573a-d4e8-454d-be2d-1d918fc6e7ad" valueTypeId="981d838b-2052-49fc-9cd7-3180204c6536"/>
+    <recordKeyType typeId="607d5e5d-bf9a-471b-8458-c404206eb5c6" valueTypeId="d13c798e-6ab8-437e-93b6-368ba627bd3f"/>
+    <recordType typeId="ac1a8466-b58c-496b-8cbb-ce8a45bb8853" valueTypeId="d1fd325f-83bd-45ae-9216-9f9f09422aaf"/>
+    <recordManagerType typeId="f930f576-d9b7-4f46-9965-8fe92e4778f5" valueTypeId="5be3e37a-313d-4279-98af-ae4793fa2ea8"/>
+  </producedTypes>
+  <name>ИспытательныеСроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Испытательные сроки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d15c921e-7350-492c-aebe-da89e56e8b36">
+    <name>ДатаНачалаИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала ИС</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="94416e42-1211-48ed-8a6b-0ddc09bd6db5">
+    <name>ДатаКонцаИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата конца ИС</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d070781-5d09-4e17-8dc0-e5641629de3c">
+    <name>РезультатИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат ИС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РезультатИС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="26d4bdf4-5116-487c-8f49-0b4458dff993">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

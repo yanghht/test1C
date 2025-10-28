@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b53c4b7-1616-4835-8328-613eb6dbfa5f">
+  <producedTypes>
+    <refType typeId="4c1fcddc-d6d5-4cc4-bfa5-ff5116db86ce" valueTypeId="2eac9784-84ca-40d8-aaf8-439235b2f087"/>
+    <listType typeId="08204e34-a866-41f2-b55e-3149a6e19959" valueTypeId="1f686cf9-8e56-4389-9d5e-5383680b734d"/>
+    <managerType typeId="37aad68f-f7c7-4e2d-a73a-4c8ea8d6ff98" valueTypeId="7c749e42-0400-4c43-8291-171349f934ac"/>
+  </producedTypes>
+  <name>СтатусыПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы проектов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="743d07bd-f7e8-4997-99f3-ccc3b0568f32">
+    <name>Текущий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fb9d793b-ad60-4c46-9580-7b66402ee5f4">
+    <name>Завершенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершенный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

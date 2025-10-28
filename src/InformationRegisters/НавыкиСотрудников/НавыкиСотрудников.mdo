@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1d11283-e81f-4247-b0e7-fc9003ea7df4">
+  <producedTypes>
+    <selectionType typeId="afd54392-bba2-4d95-9549-846600236f6e" valueTypeId="f2a2559e-8063-4e4b-b272-7b7d50009e43"/>
+    <listType typeId="59e0df8c-5302-487d-a1d7-bfcd50f04fe7" valueTypeId="4cbc3378-1c3a-4403-8162-59049f559c3f"/>
+    <managerType typeId="64a0200c-5769-451f-9107-a87f2f2a9cf3" valueTypeId="1655de9a-c8f3-4239-837a-13bfdaa39bf0"/>
+    <recordSetType typeId="bfcc1b36-61b2-48d5-ade9-7116c3a1a0f2" valueTypeId="feb85775-695a-448a-97b1-78c5216b8a2e"/>
+    <recordKeyType typeId="a975d2d1-6c59-45f8-8741-d5ea766dc8f7" valueTypeId="fa56850d-94b5-4f51-88f0-0859a6af2e22"/>
+    <recordType typeId="d10d07e0-13bd-410c-a2d2-024168c393d2" valueTypeId="efef5e21-d1f2-45c4-bfbb-a25adc160fe4"/>
+    <recordManagerType typeId="2363d1ca-5c67-4df8-9a6a-aa6f5cbe721a" valueTypeId="abaf90e3-8aa9-4221-85d5-db9fa3b6e600"/>
+  </producedTypes>
+  <name>НавыкиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Навыки сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dfb3d974-c3a3-4c69-804f-ef807f41e0a7">
+    <name>Уровень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2edd0c8c-b814-4b12-aea3-3e4b5f507ff7">
+    <name>Подтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="29fbdada-08f4-422e-904c-bb867907ade7">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4e48b98d-3369-4523-8098-3ffbcc34b6b8">
+    <name>ТипНавыка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип навыка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипНавыков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="13b8c343-0a9c-445f-b903-6d753e8e54a8">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

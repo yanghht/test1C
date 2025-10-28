@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ef4d9e9-94e5-4457-8b0a-163e69298e50">
+  <producedTypes>
+    <refType typeId="ab8e4971-74c3-4d5d-8d68-a271f61fdff7" valueTypeId="9fee078d-a488-448c-997d-c7be6b2a90aa"/>
+    <listType typeId="f0707724-3591-4755-8f56-fa2b8c2637f1" valueTypeId="dc187cbe-af64-419e-aaee-aaa593d3c96b"/>
+    <managerType typeId="7f029c8f-5b74-47da-ab81-8d912150a15a" valueTypeId="a69746d8-0562-4220-aa7a-2d4b66a96502"/>
+  </producedTypes>
+  <name>ТипНавыков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип навыков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="674e5896-9dd3-451a-b885-b1fc2f259796">
+    <name>Языки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Языки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29342e6b-7860-43b7-aa06-4c3ab3ec1164">
+    <name>ITНавыки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ITНавыки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e117f10-b789-416e-aea2-75480800a9ca">
+    <name>Управленческие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управленческие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dec9bab5-013d-479a-8130-059ae32b3962">
+    <name>Технические</name>
+    <synonym>
+      <key>ru</key>
+      <value>Технические</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
