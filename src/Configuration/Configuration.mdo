@@ -37,6 +37,7 @@
   <subsystems>Subsystem.Кадры</subsystems>
   <subsystems>Subsystem.Зарплата</subsystems>
   <subsystems>Subsystem.Администрирование</subsystems>
+  <constants>Constant.DemoConfDT</constants>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Должности</catalogs>
